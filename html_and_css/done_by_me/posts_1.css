@@ -1,0 +1,119 @@
+/* *{
+    background-color: cyan;
+} */
+
+
+body{
+    background-color: #f1faee;
+
+}
+
+button{
+    font-size:30px;
+    background-color: #bc6c25;
+}
+
+h1,h2{
+    color:#1d3557;
+}
+
+
+h1,h2{
+    color:magenta;
+}
+
+#signup{
+    background-color: #f72585;
+    color:#fae1dd;
+}
+
+
+
+.tag{
+    background-color: #03071e;
+    color:#f0efeb;
+}
+
+
+span a {
+    color:#f72585;
+}
+
+
+.posts a {
+    color:#f72585;
+    text-decoration: none;
+    font-weight:700;
+}
+
+footer a{
+    color:#d00000;
+}
+
+input + button{
+    background-color: #f72585;
+}
+
+
+h2 + button{
+    font-size: 20px;
+    background-color: magenta;
+}
+
+footer > a{
+    color:tomato;
+}
+
+input[type="password"]{
+    color:violet;
+}
+
+section[class="posts"]{
+    background-color: aqua;
+}
+
+button:hover{
+    background-color:#1e6091;
+    color:white;   
+}
+
+.posts button:hover{
+    color:beige;
+    background-color: blueviolet;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.posts button:active{
+    background-color: #7209b7;
+}
+
+
+.posts:nth-of-type(2n){
+    background-color:#dda15e;
+}
+
+h2::first-letter{
+    font-size: 50px;
+}
+
+p::first-line{
+    color:purple;
+}
+
+
+p::selection{
+    background-color: #4c334d;
+}
+
+
+::selection{ /*Selection applies to the entire document*/
+    background-color: #4c334d;
+}
+
+
+
+/* https://www.youtube.com/results?search_query=personal+portfolio+website+design+using+html+css+javascript */

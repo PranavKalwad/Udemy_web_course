@@ -1,0 +1,18 @@
+h1{
+    text-align:center;
+    font-weight: 400;
+    text-decoration:overline;
+    letter-spacing:5em;
+    font-size:50px;
+    font-family:Monaco;
+}
+
+p{
+    text-align:right;
+    font-weight:bold;
+    line-height:2.5;
+}
+
+a{
+    text-decoration: none;
+}

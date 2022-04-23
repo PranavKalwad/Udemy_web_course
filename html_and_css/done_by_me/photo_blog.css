@@ -1,0 +1,13 @@
+img{
+    width:30%;
+    margin:1rem;
+}
+
+nav{
+    text-transform: uppercase;
+    border-bottom:2px solid #000000;
+    width:30%;
+    margin:1rem;
+    padding:0.2rem 0.2rem;
+    font-family: 'Oswald', sans-serif;
+}

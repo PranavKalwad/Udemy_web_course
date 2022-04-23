@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <button>Outside the form</button>
+    <form action="tacos">
+        <p>
+            <button type="button">Button at the start of the form </button>
+            <label for="username">Enter username:</label>
+            <input type="text" name="username" id="username" placeholder="username">
+        </p>
+        <p>
+            <label for="password">Enter password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter the password">
+        </p>
+        <p>
+            <label for="color">Enter a color:</label>
+            <input type="color" name="color" id="color">
+        </p>
+        <p>
+            <label for="number">Enter a number:</label>
+            <input type="number" name="number" id="number" placeholder="enter a number" min="1" max="10000" step="2">
+        </p>
+        <p>
+            <label for="date">Enter your birthday</label>
+            <input type="date" name="bd" id="date">
+        </p>
+        <button type="submit">Submit</button>
+        <input type="button" value="Submit" name="submit">
+    </form>
+    <button>Not inside a form</button>
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q" id="">
+        <button>Serach in reddit</button>
+    </form>
+    <form action="http://www.google.com/search">
+        <input type="text" name="q" id="">
+        <button>Search google</button>
+    </form>
+    <form action="http://www.youtube.com/results">
+        <input type="text" name="search_query" id="">
+        <button>Search youtube</button>
+    </form>
+    <h2>More inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree" id="agree" checked>
+        <label for="agree">I agree to the terms and conditions</label>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs" value="xtra small">
+            <!--The value attribute holds the value that is to be sent to the server-->
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="small">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="medium">
+            <label for="l">L</label>
+            <input type="radio" name="size" id="l" value="large">
+        </p>
+        <label for="meal">Please select a entree</label>
+        <select name="meal" id="meal">
+            <option value="">---Please select an option---</option>
+            <option value="veg">Veg</option>
+            <option value="non-veg">Non-Veg</option>
+            <option value="special" selected>Special</option>
+        </select>
+        <br>
+        <label for="vol">Vol</label>
+        <input type="range" name="vol" id="vol" min="0" step="5" value="75" max="100">
+        <p>
+            <label for="feedback">Any feedback ?</label>
+            <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Enter your feedback"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+    <h2>Validations Demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter your first name:</label>
+        <input type="text" name="first" id="first" required>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
+        <button>Submit</button>
+        <p>
+            <!-- <input type="email" name="email" id="email" required> -->
+            <input type="url" name="url" id="url">
+        </p>
+    </form>
+</body>
+
+</html>
