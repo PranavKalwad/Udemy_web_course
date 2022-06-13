@@ -1,0 +1,9 @@
+In gitbash in the appropriate directory
+
+1. git add .
+
+2. git commit -m "Commit message"
+
+3. git branch -M main
+
+4. git push -u origin main
